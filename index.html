@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .profile-pic-wrapper {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 4px solid #007BFF;
+            margin: 0 auto 15px auto;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+ 
+        .profile-pic {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            object-position: center;
+            display: block;
+            margin-left: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #007BFF;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #444;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 5px;
+        }
+
+        p {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+
+        .project {
+            background: #f9f9f9;
+            padding: 15px;
+            border-left: 5px solid #007BFF;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .screenshot-container {
+            margin-top: 15px;
+            border: 2px #007BFF;
+            border-radius: 6px;
+            padding: 10px;
+            background: #eef4ff;
+            text-align: center;
+        }
+ 
+        .screenshot-container p {
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 10px;
+        }
+ 
+        .screenshot-container img {
+            width: 100%;
+            max-height: 350px;
+            object-fit: contain;
+            border-radius: 4px;
+            display: block;
+        }
+
+        .contact {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: gray;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+
+            <div class="profile-pic-wrapper">
+                <img src="asset/myprofile.png" alt="Profile Picture" class="profile-pic" />
+            </div>
+
+            <h1>Rodel Sapida</h1>
+
+            <div class="contact">
+                <p>Email: rodelsapida01@gmail.com</p>
+            </div>
+        </div>
+
+        <h2>Field of Expertise</h2>
+        <p>
+        Experienced <b>Extruder Machine Operator</b> with knowledge in machine setup, 
+        plastic extrusion processes, quality inspection, troubleshooting, and 
+        production monitoring. Skilled in maintaining efficient machine operation, 
+        ensuring product quality, and following workplace safety standards. 
+        Dedicated, hardworking, and able to work effectively in fast-paced 
+        manufacturing environments.
+        </p>
+
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Project 1 - Assignment 1</h3>
+            <p><strong>Duration:</strong> 2026-04-06 ~ 2026-04-19</p>
+            <p><strong>Type:</strong> Individual</p>
+            <p><strong>Description:</strong> Voidshot – Arcade Survival Shooter
+            A browser-based survival shooter built with HTML5 Canvas, CSS, and JavaScript. Players battle endless waves of enemies using multiple abilities, 
+            including rapid-fire attacks, dashing, and a powerful ultimate skill.
+            The game features wave-based progression, real-time HUD elements, particle effects, and responsive mouse-controlled gameplay,
+            showcasing interactive web development and game programming concepts.</p>
+
+            <div class="screenshot-container">
+                <p>Void Shot Game</p>
+                <img src="asset/voidshotgame.jpg" alt="Project Screenshot" />
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© 2026 Rodel Sapida | My Portfolio</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
